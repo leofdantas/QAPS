@@ -1,18 +1,19 @@
 Quantitative and Analytical Political Science
 ==
+Leonardo Dantas <br>
 Princeton University
 
 # Workflow Resources
 ## Notion
 https://www.notion.com/desktop
 #### What is it for
-Note-taking, organizing, storing ideas
+Note-taking, organizing, and storing ideas
 #### How to get it
 - Free download
 #### Flow
 - Mind Palace (connects to all pages)
 - Princeton (uni resources, academic planning)
-- Research (papers, readings, data sources, workflow,)
+- Research (papers, readings, data sources, workflow)
 - Personal (shopping list, subscriptions, recipes...)
 ## Raycast
 https://www.raycast.com/
@@ -87,7 +88,7 @@ AI tool to find papers related to a given set of papers
 #### How to get it
 - Access it online
 #### Flow
-Connect to Zotero and find gaps in literature
+Connect to Zotero and find gaps in the literature
 ## PDF Expert
 https://pdfexpert.com/
 #### What is it
