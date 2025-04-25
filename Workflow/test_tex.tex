@@ -1,0 +1,119 @@
+% --------------------------------------------------------------------
+% Preamble
+% --------------------------------------------------------------------
+
+\documentclass{article}[11pt]
+
+%% Layout
+\usepackage[utf8]{inputenc}  % Ensure proper encoding
+\setlength{\parindent}{25pt} % Paragraph indentation
+\usepackage{setspace}
+\usepackage{appendix}
+\doublespacing
+
+%% General
+\usepackage{geometry} % control margin, paper size, layout
+\usepackage{grffile} % allow pathways with spaces
+\usepackage{float} % better float positioning
+\usepackage[english]{babel}
+\usepackage[protrusion=true,expansion=true]{microtype}	
+
+%% Text
+\usepackage{enumitem}
+\usepackage{amsmath,amsfonts,amsthm,amssymb} % math symbols
+\usepackage{xcolor} % allows use of color
+\usepackage{url}
+
+%% Plots and Tables
+\usepackage{booktabs} % better looking tables
+\usepackage{graphicx} % include image and graphics
+
+%% Citation
+\usepackage{natbib}
+\usepackage{hyperref} % hyperlinks of referrences
+\bibliographystyle{apalike}
+\usepackage[hyperpageref]{backref} % Return to text after clicking citation
+
+% Block quotes for hypothesis/quotes
+\newenvironment{blockquote}{%
+  \par%
+  \medskip
+  \leftskip=4em\rightskip=2em%
+  \noindent\ignorespaces}{%
+  \par\medskip}
+  
+  
+% --------------------------------------------------------------------
+% Title Definitions
+% --------------------------------------------------------------------
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\makeatletter							% Title
+\def\printtitle{%						
+    {\centering \@title\par}}
+\makeatother									
+
+\makeatletter							% Author
+\def\printauthor{%					
+    {\centering \large \@author}}				
+\makeatother							
+
+% Metadata
+\title{
+			%% Subtitle %%
+			\large \textsc{Term Year}	
+		 	\\[2.0cm]
+			\HRule{1pt} \\			
+			%%%% Title %%%%
+			\LARGE \textbf{Title}\\
+			Subtitle
+			\HRule{1pt} \\ [0.5cm]
+			%% Date %%
+			\large \today
+		}
+
+\author{
+		Leonardo Feitosa Dantas\\	
+		Princeton University\\	
+		Department of Politics\\
+}
+
+% --------------------------------------------------------------------
+% Begin document
+% --------------------------------------------------------------------
+
+
+\begin{document}
+
+\thispagestyle{empty}		% Remove page numbering on this page
+
+\printtitle					% Print the title data as defined above
+  	\vfill
+\printauthor				% Print the author data as defined above
+\newpage
+\clearpage
+
+\begin{abstract}
+Test
+\end{abstract}
+\clearpage
+
+\section{Introduction}
+
+\cite{Dantas_2023_ElectoralDiscourse, GrahamSvolik_2020_DemocracyAmerica} 
+
+\begin{align*}
+\mathbb{E}[\hat{﻿\theta}] = \sum_{i=1}^{n} \mathbb{P}(X_i = x_i)\\
+\hat{﻿\theta} = \frac{\sum_{i=1}^{n} \mathbf{﻿x}^\top \bar{﻿\beta}}{n}
+\end{align*}
+
+\begin{figure}[H]
+\caption{caption}
+\includegraphics[width=1\textwidth]{/Users/leodantas/MyDrive/Github/QAPS/amazon_plot.png}
+\label{fig:label}
+\end{figure}
+
+\bibliography{/Users/leodantas/Documents/Zotero/MyLibrary.bib}
+
+
+\end{document}
