@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>15616878</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>TextTokensOnly</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>glimpse()</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15616879</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>764873656.54742897</real>
+				<key>ModificationDate</key>
+				<real>767238931.04589903</real>
+				<key>Name</key>
+				<string>R glimpse()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>5</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2304</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>AF7BC47C-F5E9-49F3-960E-55E5CD46DC2C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>15617257</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>15617258</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>TextTokensOnly</string>
+						<key>Text</key>
+						<string>\begin{table}[H]
+\caption{caption}
+\centering
+\input{%CurrentClipboard%}
+\label{tbl:label}
+\end{table}</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>767239127.519894</real>
+				<key>ModificationDate</key>
+				<real>767239383.93590498</real>
+				<key>Name</key>
+				<string>LaTeX Table</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>15</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>868DC364-CEC9-41CD-ACEB-4887DFB5EBCD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>15616499</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>TextTokensOnly</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>\sum_{}^{}</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15616500</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15616501</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15616502</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15616877</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>763587473.62014699</real>
+				<key>ModificationDate</key>
+				<real>763587521.78955805</real>
+				<key>Name</key>
+				<string>LaTeX Sums</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>\sum</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>73231A27-F0BF-49B0-A6AD-19DBAD31C2F2</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>745127419.22382998</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>15616121</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>\mathbb{P}()</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15616498</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>763584588.60833299</real>
+				<key>ModificationDate</key>
+				<real>763584737.20900095</real>
+				<key>Name</key>
+				<string>LaTeX Probability</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>35</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>FF9C746C-FF83-457B-82EB-1B2FCF881EED</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>4FF741B9-33F8-4ACF-98ED-C50FA6C79E65</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>745127419.22382998</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>15614610</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>---
+title: "Title"
+author: "Leonardo Dantas"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+header-includes:
+  - \usepackage{amsmath,amsfonts,amsthm,amssymb}
+  - \usepackage{float}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      message = FALSE, 
+                      warning = FALSE)
+
+knitr::opts_knit$set(root.dir = getwd()) # knit dir is wherever the .Rmd is
+
+# Libraries
+pacman::p_load(tidyverse, 
+               texreg,
+               kableExtra)
+
+# for loading files: here()
+```</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>754202109.65275896</real>
+				<key>ModificationDate</key>
+				<real>767133105.33573198</real>
+				<key>Name</key>
+				<string>RStudio Default Document</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>15</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6400</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>05A30149-2EF3-401E-923A-6D4F1D818EF1</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>4FF741B9-33F8-4ACF-98ED-C50FA6C79E65</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>2809</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>2810</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>\mathbf{%CurrentClipboard%}</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>747972703.96546197</real>
+				<key>ModificationDate</key>
+				<real>760417622.25223303</real>
+				<key>Name</key>
+				<string>LaTeX MathBF</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>9</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>D3EBC95C-234B-4245-BDB2-3EC595AE958D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>15617255</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15617633</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%CurrentClipboard%</string>
+						<key>Variable</key>
+						<string>FigurePath</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>CaseSensitiveRegEx</string>
+						<key>ActionUID</key>
+						<integer>15617634</integer>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string>/Users/leodantas/MyDrive</string>
+						<key>Search</key>
+						<string>/Users/leodantas/Library/CloudStorage/GoogleDrive-lf5453@princeton.edu/My Drive</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>FigurePath</string>
+						<key>Which</key>
+						<string>All</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>15617256</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>TextTokensOnly</string>
+						<key>Text</key>
+						<string>\begin{figure}[H]
+\caption{caption}
+\includegraphics[width=1\textwidth]{%Variable%FigurePath%}
+\label{fig:label}
+\end{figure}</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>767239033.45860696</real>
+				<key>ModificationDate</key>
+				<real>767241024.51301706</real>
+				<key>Name</key>
+				<string>LaTeX Plot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>5</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>08A4C364-B185-4F2B-AF19-EC8AB0B4BBF9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>2804</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>2808</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>\mathbb{%CurrentClipboard%}</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>4365</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>747863654.10064602</real>
+				<key>ModificationDate</key>
+				<real>760417562.24872005</real>
+				<key>Name</key>
+				<string>LaTeX MathBB</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>11</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>79D3B64E-E2AE-4C7B-A685-E24B27B02313</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>745127419.22382998</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>424</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>https://princeton.zoom.us/my/leodantas</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>745899052.64015305</real>
+				<key>ModificationDate</key>
+				<real>745899120.30450106</real>
+				<key>Name</key>
+				<string>Princeton Zoom link</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>6</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6400</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>55BF46A4-D755-44C6-8CF0-624F6503B29A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>4FF741B9-33F8-4ACF-98ED-C50FA6C79E65</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>15615744</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>15615745</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>TextTokensOnly</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>\text{%CurrentClipboard%}</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15615746</integer>
+						<key>IsActive</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>762042144.96577001</real>
+				<key>ModificationDate</key>
+				<real>762042205.46693695</real>
+				<key>Name</key>
+				<string>LaTeX Text</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>17</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>D71A5350-D855-4730-8BFD-F9490D40CE80</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>745127419.22382998</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>15616122</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>\mathbb{E}[]</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15616123</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>763584644.53574395</real>
+				<key>ModificationDate</key>
+				<real>763584694.23761296</real>
+				<key>Name</key>
+				<string>LaTeX Expected Value</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>14</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>21871847-CA20-456C-B760-CFFBE1505620</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>4FF741B9-33F8-4ACF-98ED-C50FA6C79E65</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>15613857</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>15613858</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>\hat{%CurrentClipboard%}</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15613859</integer>
+						<key>IsActive</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>751226041.64579999</real>
+				<key>ModificationDate</key>
+				<real>751226458.87001503</real>
+				<key>Name</key>
+				<string>LaTeX Hat</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>4</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>0C1D3323-D3EC-4584-BCF4-57B5E9C92E02</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>2414</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>TextTokensOnly</string>
+						<key>Text</key>
+						<string>\begin{itemize}
+\item
+\item
+\end{itemize}</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>3207</integer>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>3208</integer>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>747866397.26802301</real>
+				<key>ModificationDate</key>
+				<real>751337558.94043005</real>
+				<key>Name</key>
+				<string>LaTeX Itemize</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>34</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7B6A4DC6-DD27-4BF0-8782-B8A24A5BFD85</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>15615367</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>15615362</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>$%CurrentClipboard%$</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>747863451.220837</real>
+				<key>ModificationDate</key>
+				<real>760417087.10210395</real>
+				<key>Name</key>
+				<string>LaTeX Math (All)</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>46</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6656</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>5C4E072C-24BC-443C-A6C9-FE19D63BE599</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>3600</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>$$</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>3209</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>747863258.648453</real>
+				<key>ModificationDate</key>
+				<real>760417020.85065103</real>
+				<key>Name</key>
+				<string>LaTeX Math</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>46</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>A9ECB831-B4E3-4562-9E93-11D663CC8BAB</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>1634</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>TextTokensOnly</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>\frac{}{}</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>3202</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>3203</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>3204</integer>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>747863966.91719401</real>
+				<key>ModificationDate</key>
+				<real>748044217.12457097</real>
+				<key>Name</key>
+				<string>LaTeX Fractions</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>\frac</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>61CC28D5-CF98-4E63-8546-5E40B4B812FD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>3990</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>% --------------------------------------------------------------------
+% Preamble
+% --------------------------------------------------------------------
+
+\documentclass{article}[11pt]
+
+%% Layout
+\usepackage[utf8]{inputenc}  % Ensure proper encoding
+\setlength{\parindent}{25pt} % Paragraph indentation
+\usepackage{setspace}
+\usepackage{appendix}
+\doublespacing
+
+%% General
+\usepackage{geometry} % control margin, paper size, layout
+\usepackage{grffile} % allow pathways with spaces
+\usepackage{float} % better float positioning
+\usepackage[english]{babel}
+\usepackage[protrusion=true,expansion=true]{microtype}	
+
+%% Text
+\usepackage{enumitem}
+\usepackage{amsmath,amsfonts,amsthm,amssymb} % math symbols
+\usepackage{xcolor} % allows use of color
+\usepackage{url}
+
+%% Plots and Tables
+\usepackage{booktabs} % better looking tables
+\usepackage{graphicx} % include image and graphics
+
+%% Citation
+\usepackage{natbib}
+\usepackage{hyperref} % hyperlinks of referrences
+\bibliographystyle{apalike}
+\usepackage[hyperpageref]{backref} % Return to text after clicking citation
+
+% Block quotes for hypothesis/quotes
+\newenvironment{blockquote}{%
+  \par%
+  \medskip
+  \leftskip=4em\rightskip=2em%
+  \noindent\ignorespaces}{%
+  \par\medskip}
+  
+  
+% --------------------------------------------------------------------
+% Title Definitions
+% --------------------------------------------------------------------
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\makeatletter							% Title
+\def\printtitle{%						
+    {\centering \@title\par}}
+\makeatother									
+
+\makeatletter							% Author
+\def\printauthor{%					
+    {\centering \large \@author}}				
+\makeatother							
+
+% Metadata
+\title{
+			%% Subtitle %%
+			\large \textsc{Term Year}	
+		 	\\[2.0cm]
+			\HRule{1pt} \\			
+			%%%% Title %%%%
+			\LARGE \textbf{Title}\\
+			Subtitle
+			\HRule{1pt} \\ [0.5cm]
+			%% Date %%
+			\large \today
+		}
+
+\author{
+		Leonardo Feitosa Dantas\\	
+		Princeton University\\	
+		Department of Politics\\
+}
+
+% --------------------------------------------------------------------
+% Begin document
+% --------------------------------------------------------------------
+
+
+\begin{document}
+
+\thispagestyle{empty}		% Remove page numbering on this page
+
+\printtitle					% Print the title data as defined above
+  	\vfill
+\printauthor				% Print the author data as defined above
+\newpage
+\clearpage
+
+\begin{abstract}
+Test
+\end{abstract}
+\clearpage
+
+\section{Introduction}
+
+\cite{Dantas_2023_ElectoralDiscourse} 
+
+\bibliography{/Users/leodantas/Documents/Zotero/MyLibrary.bib}
+
+
+\end{document}</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>749011529.60740304</real>
+				<key>ModificationDate</key>
+				<real>767134485.42337203</real>
+				<key>Name</key>
+				<string>LaTeX Default Document</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>37</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6400</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>BC216B1F-E296-4265-BAE5-11EF0851C2B4</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>745127419.22382998</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>15615742</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>15615743</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>TextTokensOnly</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>\bar{%CurrentClipboard%}</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>760417331.26060402</real>
+				<key>ModificationDate</key>
+				<real>760417502.82749701</real>
+				<key>Name</key>
+				<string>LaTeX Bar</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>38</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>4F45C9D0-E283-451D-8085-67F98DDBAEFE</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>4FF741B9-33F8-4ACF-98ED-C50FA6C79E65</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>747863247.18302298</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>ActionUID</key>
+						<integer>2811</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>ProcessingMode</key>
+						<string>Nothing</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>\begin{align*}
+
+\end{align*}</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>3201</integer>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>747973607.89440799</real>
+				<key>ModificationDate</key>
+				<real>749612380.26390696</real>
+				<key>Name</key>
+				<string>LaTeX Align</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>0</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>67F2AEE2-5C06-4FBB-9407-C8C610258757</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>520F4A9C-058B-458A-BDB2-392FEC903B03</string>
+		<key>UID</key>
+		<string>5BF4B822-DFEE-4498-9308-798C0092A81D</string>
+	</dict>
+</array>
+</plist>
