@@ -4,6 +4,10 @@ Leonardo Dantas <br>
 Princeton University
 
 # Workflow Resources
+Guide from the QAPS Workshop on research workflow (April 25, 2025). Files can be found in the `Workshop` folder, and the full recording can be found inside the `recording` subfolder. 
+
+Below, I list all of the quality-of-life and research efficiency applications I used in the workshop.
+
 ## Notion
 https://www.notion.com/desktop
 #### What is it for
